@@ -41,7 +41,7 @@ loitering_detector = LoiteringDetectionSystem({
 })
 
 # Initialize violence detector
-violence_detector = ViolenceDetector("FYP_AI_POWERED_VID_SURVILLEANCE/violence_detection_model.h5")
+violence_detector = ViolenceDetector("FYP_CS09/violence_detection_model.h5")
 
 @app.get("/")
 async def root():
