@@ -10,7 +10,7 @@ from PIL import Image
 import io
 
 class ViolenceDetector:
-    def __init__(self, model_path="FYP_AI_POWERED_VID_SURVILLEANCE/violence_detection_model.h5"):
+    def __init__(self, model_path="FYP_CS09/violence_detection_model.h5"):
         """Initialize Violence Detection system with pre-trained model."""
         self.model_path = model_path
         
